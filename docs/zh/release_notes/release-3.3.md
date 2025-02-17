@@ -21,7 +21,7 @@ displayed_sidebar: docs
 ### 功能优化
 
 - 在 FE 节点以 `bdbje_reset_election_group` 开头时，纠正 FE 节点名称以方便理解。[#54399](https://github.com/StarRocks/starrocks/pull/54399)
-- 在 ARM 结构上实现 IF 函数的向量化。[#53093](https://github.com/StarRocks/starrocks/pull/53093)
+- 在 ARM 架构上实现 IF 函数的向量化。[#53093](https://github.com/StarRocks/starrocks/pull/53093)
 - ALTER SYSTEM CREATE IMAGE 支持创建 StarManager 的 Image。[#54370](https://github.com/StarRocks/starrocks/pull/54370)
 - 存算分离集群支持删除主键表的云原生索引。[#53971](https://github.com/StarRocks/starrocks/pull/53971)
 - 指定 FORCE 关键词时，系统强制刷新物化视图。[#52081](https://github.com/StarRocks/starrocks/pull/52081)
